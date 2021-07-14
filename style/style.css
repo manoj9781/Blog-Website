@@ -52,8 +52,7 @@ header::after{
     margin-top: 8px;
 }
 .main{
-    background-color: yellow;
-    height: 100px;
+    /* background-color: yellow; */
     margin-top: 32px;
     display: flex;
     justify-content: center;
@@ -77,4 +76,46 @@ footer {
     align-items: center;
     margin-top: 40px;
     font-size: 14px;
+}
+
+.post{
+    display: flex;
+    border: 1px solid #eaecee;
+    border-radius: 8px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.post-image{
+    flex-basis: 40%;
+    background-image: url(https://images.unsplash.com/photo-1626202835545-ed4c3127850f?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-position: center;
+}
+
+.post-content{
+    flex-basis: 60%;
+    padding: 24px;
+}
+
+.post-date{
+    font-size: 12px;
+    font-weight: 600;
+    color: #adb5bd;
+}
+
+.post-title{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 16px;
+    color: #333;
+}
+
+.post-text{
+    margin-top: 4px;
+    font-weight: 400;
+    line-height: 1.4;
+    overflow: hidden;
+    max-height: 65px;
+    color: #495057;
 }
