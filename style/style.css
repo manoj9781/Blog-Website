@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.post-link {
+    text-decoration: none;
+}
+
+header{
+    background-color: blue;
+    height: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/assets/banner.jpeg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+header > *{
+    z-index: 10;
+}
+
+header::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.profile-image{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+    background-image: url("/assets/Manoj.jpg");
+    background-size: cover;
+}
+
+.profile-name{
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.subtext{
+    margin-top: 8px;
+}
+.main{
+    background-color: yellow;
+    height: 100px;
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-container{
+    max-width: 750px;
+    min-width: 600px;
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+
+footer {
+    min-height: 100px;
+    background-color: #eaecee70;
+    color: #929eaa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 14px;
+}
