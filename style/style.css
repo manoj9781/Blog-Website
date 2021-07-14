@@ -85,6 +85,7 @@ footer {
     overflow: hidden;
     cursor: pointer;
     transition: all 0.25s ease;
+    margin-top: 24px;
 }
 
 .post:hover{
@@ -145,4 +146,12 @@ footer {
 
 .nav-button.new-post-button:hover{
     background-color: #002349;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #004186;
+    border: 1px solid #004186;
+    border-radius: 5px;
+    padding: 5px 8px;
 }
